@@ -1,0 +1,450 @@
+[
+    {
+        "col_name": "Student",
+        "attributes": [
+            "personalInformation",
+            "institution",
+            "organisation",
+            "schooling",
+            "courses",
+            "assessments"
+        ],
+            "personalInformation": [
+                "identification",
+                "contact",
+                "demographic",
+                "designation"
+            ],
+                "identification": [
+                    "name",
+                    "ID"
+                ],
+                    "name": [
+                        "firstName",
+                        "middleName",
+                        "lastName",
+                        "fullName",
+                        "prefix"
+                    ],
+                    "ID": [
+                        "governmentID",
+                        "studentID"
+                    ],
+                        "governmentID": [
+                            "GID_Name",
+                            "value"
+                        ],
+                        "studentID": [
+                            "SID_Name",
+                            "value"
+                        ],
+                "contact": [
+                    "telephone",
+                    "address",
+                    "emailID"
+                ],
+                    "telephone": [
+                        "phoneType",
+                        "extension",
+                        "phoneNumber"
+                    ],
+                    "address": [
+                        "adressLine1",
+                        "adressLine2",
+                        "adressLine3",
+                        "city",
+                        "district",
+                        "state",
+                        "region",
+                        "mandal"
+                    ],
+                "demographic": [
+                    "dateOfBirth",
+                    "gender",
+                    "age",
+                    "ageBand",
+                    "disability"
+                ],
+            "institution": [
+                "I_name",
+                "type",
+                "roles",
+                "class",
+                "semester",
+                "section",
+                "branch",
+                "year",
+                "GPA",
+                "CGPA"
+            ],
+            "organisation": [
+                "O_name",
+                "type",
+                "roles"
+            ],
+                "roles": [
+                    "title"
+                ],
+            "schooling": [
+                "S_institution"
+            ],
+                "S_institution": [
+                    "S_I_name",
+                    "type"
+                ],
+            "courses": [
+                    "courseName",
+                    "course"
+            ],
+                "course": [
+                    "title",
+                    "code",
+                    "numOfPreviousAttempts",
+                    "credits",
+                    "result"
+                ],
+                    "credits": [
+                        "total",
+                        "earned"
+                    ],
+            "assessments": [
+                "assessmentName",
+                "assessment"
+            ],
+                "assessment": [
+                    "A_name",
+                    "type",
+                    "score",
+                    "date"
+                ],
+                    "score": [
+                        "max",
+                        "earned"
+                    ]                
+    },
+    {
+        "col_name": "Employee",
+        "attributes": [
+            "personalInformation",
+            "employer",
+            "assignments",
+            "schooling",
+            "courses",
+            "entities"
+        ],
+            "personalInformation": [
+                "identification",
+                "contact",
+                "demographic",
+                "designation"
+            ],
+                "identification": [
+                    "name",
+                    "ID"
+                ],
+                    "name": [
+                        "firstName",
+                        "middleName",
+                        "lastName",
+                        "fullName",
+                        "prefix"
+                    ],
+                    "ID": [
+                        "governmentID",
+                        "employeeID"
+                    ],
+                        "governmentID": [
+                            "GID_Name",
+                            "value"
+                        ],
+                        "employeeID": [
+                            "EID_Name",
+                            "value"
+                        ],
+                "contact": [
+                    "telephone",
+                    "address",
+                    "emailID"
+                ],
+                    "telephone": [
+                        "phoneType",
+                        "extension",
+                        "phoneNumber"
+                    ],
+                    "address": [
+                        "adressLine1",
+                        "adressLine2",
+                        "adressLine3",
+                        "city",
+                        "district",
+                        "state",
+                        "region",
+                        "mandal"
+                    ],
+                "demographic": [
+                    "dateOfBirth",
+                    "gender",
+                    "age",
+                    "ageBand",
+                    "disability"
+                ],
+            "employer": [
+                "institution",
+                "organisation"
+            ],
+            "institution": [
+                "I_name",
+                "positionTitle",
+                "roles",
+                "hireDate",
+                "startDate",
+                "endDate"
+            ],
+                "roles": [
+                        "title"
+                ],
+            "organisation": [
+                "O_name",
+                "organisation_ID",
+                "positionTitle",
+                "roles",
+                "hireDate",
+                "startDate",
+                "endDate"
+            ],
+                "roles": [
+                        "title"
+                ],
+            "assignments": [
+                "employerID",
+                "role",
+                "hireDate",
+                "startDate",
+                "endDate",
+                "information",
+                "info"
+            ],
+            "schooling": [
+                "institution_ID",
+                "institution"
+            ],
+                "S_institution": [
+                    "S_I_name",
+                    "type"
+                ],
+            "courses": [
+                "course_ID",
+                "course"
+            ],
+                "course" : [
+                    "title",
+                    "code"
+                ],
+            "entities": [ 
+                "entity_ID"
+            ]
+            
+            
+    },
+    {
+        "col_name": "Institution",
+        "attributes": [
+            "type",
+            "identification",
+            "contact",
+            "credentials",
+            "programs",
+            "entities"
+        ],
+            "identification": [
+                "name",
+                "shortName"
+            ],
+            "contact": [
+                "telephone",
+                "address",
+                "emailID"
+            ],
+                "telephone": [
+                    "phoneType",
+                    "extension",
+                    "phoneNumber"
+                ],
+                "address": [
+                    "adressLine1",
+                    "adressLine2",
+                    "adressLine3",
+                    "city",
+                    "district",
+                    "state",
+                    "region",
+                    "mandal"
+                ],
+            "credentials": [
+                "liscence"
+            ],
+            "programs": [
+                "program_ID"
+            ],
+            "entities": [ 
+                    "entity_ID"
+            ]
+    },
+    {
+        "col_name": "Organisation",
+        "attributes": [
+            "type",
+            "identification",
+            "contact",
+            "credentials",
+            "programs",
+            "entities"
+        ],
+            "identification": [
+                "name",
+                "shortName"
+            ],
+            "contact": [
+                "telephone",
+                "address",
+                "emailID"
+            ],
+                "telephone": [
+                    "phoneType",
+                    "extension",
+                    "phoneNumber"
+                ],
+                "address": [
+                    "adressLine1",
+                    "adressLine2",
+                    "adressLine3",
+                    "city",
+                    "district",
+                    "state",
+                    "region",
+                    "mandal"
+                ],
+            "credentials": [
+                "liscence"
+            ],
+            "programs": [
+                "program_ID"
+            ],
+            "entities": [ 
+                    "entity_ID"
+            ]
+    },
+    {
+        "col_name": "Course",
+        "attributes": [
+              "institution_ID",
+              "details",
+              "students",
+              "instructors",
+              "entities"
+        ],
+            "details": [
+                "title",
+                "code",
+                "credits",
+                "length",
+                "requirement",
+                "module",
+                "moduleCode",
+                "presntation",
+                "presntationCode",
+                "modulePresntationLength"
+            ],
+            "students": [
+                "student_ID",
+                "student",
+                "registrationDate",
+                "unregistrationDate"
+
+            ],
+                "student": [
+                    "fullName",
+                    "institute"
+                ],
+            "instructors": [
+                "instructor_ID",
+                "role"
+            ],
+            "entities": [
+                "entity_ID"
+            ]
+    },
+    {
+        "col_name": "Assessment",
+        "attributes": [
+              "course_ID",
+              "student_ID",
+              "details",
+              "score",
+              "entities"
+        ],
+            "details": [
+                "A_name",
+                "type",
+                "goal",
+                "date",
+                "module",
+                "moduleCode",
+                "presentation",
+                "presentationCode",
+                "isBanked"
+            ],
+                "date": [
+                    "start",
+                    "end",
+                    "submitted"
+                ],
+            "score": [
+                "max",
+                "earned"
+            ],
+            "entities": [ 
+                    "entity_ID"
+            ]
+    },
+    {
+        "col_name": "Program",
+        "attributes": [
+              "details",
+              "duration",
+              "students",
+              "instructors",  
+              "entities"
+        ],
+        "details": [
+            "title",
+            "code",
+            "type",
+            "location",
+            "funding"
+        ],
+            "funding": [
+                "donor",
+                "amount"
+            ],
+        "duration": [
+            "startDate",
+            "endDate",
+            "year",
+            "length"
+        ],
+        "students": [
+                "student_ID",
+                "registrationDate",
+                "unregistrationDate"
+        ],
+    
+        "instructors": [
+                "instructor_ID",
+                "role"
+        ],
+        "entities": [ 
+                "entity_ID"
+        ]
+    }
+]

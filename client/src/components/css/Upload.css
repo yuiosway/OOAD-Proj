@@ -1,0 +1,58 @@
+.wrapper{
+    position: fixed;
+    opacity: 0.92;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 9px rgba(0,0,0,0.07);
+    padding: 25px;
+    background-color: rgba(66, 155, 194, 0.13);
+}
+
+
+.form-element {
+    width: 100%;
+    padding: 0px 0px 10px 10px;
+}
+
+
+
+.form-element > Label {
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+#element-2 > Label {
+    padding-right: 18px;
+}
+
+.main-button {
+    background-color: #188dae;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 40px;
+    margin: 0px 0px 0px 10px;
+    text-align: center;
+    font-size: 23px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.main-button:hover {
+    background-color: #94eaea; 
+    color: black;
+}
+
+.form-submit {
+    padding: 15px 12px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #fff;
+    transform: translate(0%, -20%);
+}

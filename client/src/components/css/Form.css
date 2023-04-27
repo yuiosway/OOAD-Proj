@@ -1,0 +1,84 @@
+.form-wrapper {
+    position: fixed;
+    opacity: 0.92;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 9px rgba(0,0,0,0.07);
+    padding: 25px;
+    background-color: rgba(66, 155, 194, 0.13);
+}
+
+.header {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -15%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 60px;
+    width: 25vw;
+}
+
+.form-group {
+    display: inline;
+}
+
+.form-group > input {
+    display: block;
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 14px 10px;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 4px;
+}
+
+input:hover {
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.07);
+}
+
+
+.form-group > label {
+    margin-bottom: 5px;
+    color: var(--text);
+    cursor: text;
+    font-size: 22px;
+}
+
+
+.form-submit {
+    padding: 15px 12px;
+    background-color: rgb(140, 117, 86);
+    width: 200px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.form-submit:hover {
+    box-shadow: 0px 0px 6px 3px rgba(105, 146, 142, 0.537);
+}
+
+.form-file {
+    font-size: 15px;
+    padding: 15px 12px;
+    width: 100%;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #fff;
+    position: relative;
+    transform: translate(0%, -50%);
+}

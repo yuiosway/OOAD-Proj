@@ -1,0 +1,166 @@
+.wrapper {
+    position: fixed;
+    top: 8%;;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.table-container {
+    border : 2px solid rgba(1,1,1,0.5);
+    border-radius: 2px;
+    border-color: #2d3335;
+    width : 90vw;
+    height: 60vh;
+    overflow: auto;
+}
+
+.table-main {
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.table-main th {
+    width: 18vw;
+    border : 1px solid rgb(248, 250, 250);
+    padding: 3px 6px 0px 6px; 
+    background-color: #2d3335;    
+    vertical-align: top;
+    color: #ffffff;
+}
+
+.table-main-options {
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.table-main-options th {
+    width: 22.5vw;
+    border : 1px solid rgb(248, 250, 250);
+    padding: 3px 6px 3px 6px; 
+    background-color: #2d3335;
+    color: #ffffff;
+}
+
+
+
+pre.column-headers {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+p.column-headers {
+    text-align: center;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.button-new-entry {
+    padding: 10px 12px;
+    margin-right: 10px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #2d3335 !important;
+    color: #ffffff;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.button-new-entry:hover {
+    text-decoration: underline;
+    box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.07);
+}
+.button-new-entry-1 {
+    padding: 10px 12px;
+    margin-right: 10px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #2d3335 !important;
+    color: #ffffff;
+}
+
+.button-new-entry-1:hover {
+    box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.07);
+}
+
+.button {
+    padding: 15px 12px;
+    margin-right: 10px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #2d3335 !important;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.button:hover {
+    text-decoration: underline;
+    box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.17);
+}
+
+
+button.select-file {
+    margin-top: 20px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+
+.body-rows tr {
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.row-headers {
+    font-size: 20px;
+}
+
+.options-cell td {
+    padding: 3px 5px 3px 5px;
+}
+
+
+td {
+    border: 2px solid rgba(1,1,1,0.5);
+    color: #000000;
+}
+
+.table-input {
+    width: 100%;
+    height: 15px;
+    padding: 18px 18px;
+}
+
+.table-label {
+    height: 15px;
+    padding: 18px 18px;
+}
+
+
+
+
+
+.tbody-tr {
+    height: 20px;
+}
+
+
+.options-new-col-td {
+    align-items: center;
+}
+

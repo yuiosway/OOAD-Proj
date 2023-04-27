@@ -1,0 +1,27 @@
+.home-container {
+    width: 90vw;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    position: fixed;
+    align-items: center;
+    text-align: center;
+}
+
+
+.Home-Title {
+    color: #000000;
+    font-size: 70px;  
+    margin-top: 10vh;    
+}
+
+.Home-Welcome {
+    color: #000000;
+    font-size: 50px;  
+    margin-top: 8vh;
+}
+
+.Home-Info {
+    font-size: 30px;  
+    margin-top: 10vh;
+}
